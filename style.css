@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap");
+* {
+  font-family: "Signika", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #32b336;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+} /* ---- stats.js ---- */
+
+.js-count-particles {
+  font-size: 1.1em;
+}
+
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.container {
+  z-index: 1;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 24px;
+  background: #f6f5f0;
+  padding: 2%;
+  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.75);
+}
+.container h1 {
+  text-align: center;
+}
+
+.btn {
+  margin: 15px;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  transition-duration: 0.5s;
+  color: white;
+  background: black;
+}
+input {
+  margin: 10px;
+  padding: 10px 25px 10px 25px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: inset 12px 12px 12px #cbced1, inset -12px -12px 12px white;
+  font-size: 20px;
+  text-align: center;
+}
+.board {
+  column-count: 3;
+  column-gap: 1rem;
+}
+
+.card {
+  width: 84%;
+  background: #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  color: #fff;
+}
+.card.a {
+  background: #98FB98;
+}
+.card.cr {
+  background: #7FFF00;
+}
+.card.r {
+  background: #00FF00;
+}
+.card.ca {
+  background: #32CD32;
+}
+.card.d {
+  background: #008000;
+}
+.card.t {
+  background: #006400;
+}
+.card h5 {
+  margin: 0;
+  font-size: 1rem;
+}
+.card span {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+.card i {
+  font-size: 3rem;
+}
